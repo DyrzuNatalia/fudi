@@ -1,0 +1,82 @@
+.members_slider,
+.contentslider,
+.contentslider_public,
+.public,
+figcaption,
+h3,
+p,
+.wrap{
+    margin: 0;
+    padding: 0;
+}
+
+.members_batlles{
+    height: auto;
+    background: linear-gradient(to bottom, #333399,#fe00cc)
+}
+.wrap{
+    display: block;
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.members_slider {
+    display: flex;
+    flex-direction: row;
+    width: 1170px;
+    justify-content: space-between;
+    text-align: center;
+   }
+   
+.public {
+    width: 350px;
+    height: 370px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.public_image{
+    border-radius: 10px;
+    width: 263px;
+    height: 263px;
+}
+.wrap_members{
+    margin-bottom: 100px;
+}
+.countdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+.date{
+        
+   width: 160px;
+    height: 160px;
+    background-color: #4b0241;
+    line-height: 30px;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    text-align: center;
+    
+    }
+.big{
+    font-size: 71px;
+}
+.days{
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.date div{
+    display: block;
+    margin: 0 auto;
+}
+.wrap h2{
+    margin-bottom: 60px;
+}
+.wrap_date{
+    padding-bottom: 120px;
+}

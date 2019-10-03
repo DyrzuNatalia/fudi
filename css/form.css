@@ -1,0 +1,94 @@
+textarea,
+form,
+.btn_form {
+    padding: 0;
+    margin : 0;
+}
+
+
+.wrap_form {
+    display       : block;
+    margin        : 0 auto;
+    width         : 750px;
+    text-align    : center;
+    padding-bottom: 200px;
+}
+
+.form_title {
+    padding-top   : 100px;
+    padding-bottom: 40px;
+
+}
+
+.form_title h2 {
+    padding-bottom: 50px;
+}
+
+.form_name {
+    font-size: 62px;
+
+}
+
+.form_title p {
+    font-size  : 22px;
+    line-height: 39px;
+}
+
+.contact-us-flds {
+    display : block;
+    position: relative;
+}
+
+.row_1,
+.row_2,
+textarea {
+    width  : 360px;
+    display: inline-block;
+}
+
+.row_1 {
+    text-align  : right;
+    margin-right: 20px;
+}
+
+.row_2 {
+    text-align: left;
+}
+
+#first-name,
+#email,
+#website,
+textarea {
+    border        : none;
+    border-bottom : 4px solid #555555;
+    margin-top    : 50px;
+    padding-bottom: 5px;
+    width         : 302px;
+}
+
+textarea {
+    width     : 637px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#last-name {
+    border        : none;
+    border-bottom : 2px solid #555555;
+    margin-top    : 50px;
+    padding-bottom: 5px;
+    width         : 302px;
+}
+
+.btn_form {
+    position        : absolute;
+    width           : 150px;
+    height          : 50px;
+    background-color: #555555;
+    top             : 350px;
+    right           : 70px;
+    border          : none;
+    color           : #fff;
+    margin-bottom   : 109px;
+    cursor          : pointer;
+}

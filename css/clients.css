@@ -1,0 +1,98 @@
+.sponsorship {
+    padding-bottom: 110px;
+}
+
+.sponsorship_list {
+    display        : -webkit-box;
+    display        : -ms-flexbox;
+    display        : flex;
+    -ms-flex-pack  : distribute;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .sponsorship_list {
+        display              : -webkit-box;
+        display              : -ms-flexbox;
+        display              : flex;
+        -webkit-box-orient   : vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction   : column;
+        flex-direction       : column;
+        -webkit-box-align    : center;
+        -ms-flex-align       : center;
+        align-items          : center;
+    }
+}
+
+.sponsorship_title {
+    margin-top   : 90px;
+    margin-bottom: 90px;
+    font-size    : 62px;
+}
+
+figure {
+    margin : 0;
+    padding: 0;
+}
+
+.juri {
+    background-color: #ffe9eb;
+    padding-top     : 70px;
+
+}
+
+.juri_sectiontitle {
+    color         : #444444;
+    font-size     : 24px;
+    padding-bottom: 28px;
+}
+
+.juri_title {
+
+    color      : #444444;
+    font-size  : 24px;
+    padding-top: 35px;
+
+}
+
+.juri_slider {
+    display        : -webkit-box;
+    display        : -ms-flexbox;
+    display        : flex;
+    -ms-flex-pack  : distribute;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .juri_slider {
+        display              : -webkit-box;
+        display              : -ms-flexbox;
+        display              : flex;
+        -webkit-box-orient   : vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction   : column;
+        flex-direction       : column;
+    }
+}
+
+
+.juri_member {
+    text-align: center;
+}
+
+.juri_head {
+    font-size: 62px;
+    color    : black;
+}
+
+.member_image {
+    width        : 358px;
+    height       : 358px;
+    border-radius: 50%;
+}
+
+.public_name {
+    font-size: 16px;
+    color    : #444444;
+}
